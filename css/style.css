@@ -100,6 +100,39 @@ p {
 
 
 .subimi_status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subimi_status img {
+    margin-bottom: 1rem;
+}
+
+.subimi_status h1 {
+    font-size: 25px;
+}
+
+.subimi_status p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.rating {
+    background-color:hsl(216, 12%, 25%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.nunber {
+    color: hsl(25, 97%, 53%);;
+}
+
+.hide {
     display: none;
 }
 
